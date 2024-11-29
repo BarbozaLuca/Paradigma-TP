@@ -1,0 +1,20 @@
+Ejercicio 1
+
+Considera el lenguaje JavaScript acotado al paradigma de programación orientada a objetos basado en prototipos y analízalo en términos de [los cuatro componentes de un paradigma] mencionados por Kuhn.
+
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+
+-JavaScript basado en programación orientada a objetos con prototipos tiene la particularidad de que hay algunos métodos que pueden heredar de otros prototipos a través de ciertas propiedades.
+
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+
+-Al no necesitar clases podemos omitir algunas restricciones del sistema lo que nos puede ayudar a hacer un trabajo mucho mas rápido, también con la flexibilidad que tiene JavaScript podemos realizar amplias modificaciones de una forma mas dinámica.
+
+
+Ejercicio 4
+
+Explica en un texto, con ejemplos y fundamentación qué características de la OOP utilizaste para resolver los programas de los Ejercicios 2 y 3. Si hay alguna que no utilizaste o no implementaste, indica cuál y por qué crees que no fue necesario.
+
+-Ejercicio 2(Calculadora): Utilice clases, donde hay una clase origen que contiene las variables con las cuales se van a operar y un método llamado operarExtra, después cada operación tiene su clase. No utilizo getters y setters porque no necesito acceder o modificar los valores de las propiedades desde fuera de la clase de una manera controlada pero si utilizo el constructor.
+
+-Ejercicio 3(Tareas): Utilice un constructor para definir la lista de tareas y prototipo setters. Utilice modulos para organizar mejor el proyecto.
