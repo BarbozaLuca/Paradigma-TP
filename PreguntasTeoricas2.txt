@@ -1,0 +1,17 @@
+Ejercicio 1
+Considera el lenguaje TypeScript acotado al paradigma de programación estructurada y analízalo en términos de [los cuatro componentes de un paradigma] mencionados por Kuhn.
+
+1. Generalización simbólica: ¿Cuáles son las reglas escritas del lenguaje?
+
+-TypeScript soporta funciones y módulos como unidades básicas de organización del código, con soporte para parámetros, valores de retorno y alcance léxico.
+ 
+-A diferencia de JavaScript, TypeScript utiliza un sistema de tipos estáticos, lo que permite declarar explícitamente el tipo de datos que manejará cada variable, parámetro o función, como string, number, boolean, etc.
+ 
+-Las reglas de TypeScript están diseñadas para extender JavaScript, permitiendo que cualquier código JavaScript válido también sea válido en TypeScript.
+
+
+2. Creencias de los profesionales: ¿Qué características particulares del lenguaje se cree que sean "mejores" que en otros lenguajes?
+
+-Tipado estático : Considerada una mejora significativa sobre JavaScript, ya que ayuda a prevenir errores comunes al tiempo de compilación en lugar de tiempo de ejecución.
+
+-Transpilación a JavaScript : permite escribir código más estructurado y robusto que luego se transpila a JavaScript, manteniendo compatibilidad con navegadores y entornos.
